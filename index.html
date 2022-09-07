@@ -39,7 +39,7 @@
     <div class="project" id="project-vpt">
       <h2>Volumetric Path Tracer</h2>
         <p>
-          My teammate and I implemented a path tracer to generate images using physically based rendering techniques and monte carlo integration. The path tracer reads in an obj-like scene file together with materials and produces an image with realistic soft shadows, diffuse/specular reflections, and homegenous volumetric effects.
+          My teammate and I implemented a <a target='_blank' rel='noopener noreferrer' href="https://en.wikipedia.org/wiki/Path_tracing">path tracer</a> to generate images using physically based rendering techniques and monte carlo integration. The path tracer reads in an obj-like scene file together with materials and produces an image with realistic soft shadows, diffuse/specular reflections, and homegenous volumetric effects.
         </p>
 
         <hr class='blanksep'>
@@ -52,10 +52,10 @@
           This path tracer was used in a the Rendering Competition of UCSD CSE168 Spring 2022 and received 98/100. It features
         </p> 
         <ul>
-          <li>C++20 with parallel execution policy</li>
-          <li>Usage of industry-level graphics libraries such as embree, glm, and oneapi</li>
+          <li>C++20 with <a target='_blank' rel='noopener noreferrer' href="https://en.cppreference.com/w/cpp/algorithm/execution_policy_tag_t">parallel execution policy</a></li>
+          <li>Usage of industry-level graphics libraries such as <a target='_blank' rel='noopener noreferrer' href="https://www.embree.org/">embree</a>, <a target='_blank' rel='noopener noreferrer' href="https://github.com/g-truc/glm">glm</a>, and oneapi</li>
           <li>Monte Carlo integration</li>
-          <li>a Microfacet BRDF (GGX) and Importance Sampling</li>
+          <li>a Microfacet BRDF (GGX) and <a target='_blank' rel='noopener noreferrer' href="https://en.wikipedia.org/wiki/Importance_sampling">Importance Sampling</a></li>
           <li>Equi-angular sampling for homogeneous volumes</li>
           <li>Henyey-Greenstein phase function</li>
         </ul>
@@ -63,7 +63,18 @@
     </div>
 
     <div class="project" id="project-egsolver">
-
+      <h2>SyGuS Program Synthesizer in Rust</h2>
+        <p>
+          My teammates and I wrote a program to generate programs given a <a target='_blank' rel='noopener noreferrer' href="https://sygus.org/">SyGuS</a> specification (which specifies syntax and input-output examples). It features bottom-up enumeration with observational equivalence using <a target='_blank' rel='noopener noreferrer' href="https://egraphs-good.github.io/">egg</a> (a Rust library).
+        </p>
+        <p>
+          We also wrote a baseline program (a Rust-rewrite of <a target='_blank' rel='noopener noreferrer' href="https://github.com/rishabhs/sygus-comp14/tree/master/solvers/enumerative/esolver-synth-lib">ESolver</a>) and benchmarked our synthesizer against the baseline on bitvector problems.
+        </p>
+        Links:
+        <ul>
+          <li><a target='_blank' rel='noopener noreferrer' href="https://github.com/weirane/egsolver/tree/bench">Github repo</a></li>
+          <li><a target='_blank' rel='noopener noreferrer' href="https://github.com/weirane/egsolver/blob/bench/Team4.pdf">Paper</a></li>
+        </ul>
     </div>
 
     <div class="project" id="project-os">
