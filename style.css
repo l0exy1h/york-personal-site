@@ -36,7 +36,7 @@
 @font-face 
 {
   font-family: myfont;
-  src: url('assets/MPLUS1p-Medium.ttf');
+  src: url('assets/verdana.ttf');
   font-weight: normal;
 }
 @font-face 
@@ -60,6 +60,7 @@ p, li, figcaption, td, a
 {
   /* font-family: var(--bodyfonts); */
   font-size: 17px;
+  line-height: 1.6;
 }
 
 /* centering */
