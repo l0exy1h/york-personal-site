@@ -24,16 +24,46 @@
       <!-- <h1>Yifan (York) Liu</h1> -->
       <div class='lgrid'>
         <figure>
-          <img src="assets/washu_small.jpg" alt="My photo">
+          <img src="assets/me.jpg" alt="My photo">
         </figure>
         <div>
           <p class='greeting'>Hi,</p>
           <p>I am Yifan (York) Liu, an M.S. candidate in UC San Diego majoring in Computer Science. 
           I am a former game developer and a former researcher in the field of server software and parallel computing. 
-          Currently, I am interested in software engineering or game development internships in summer 2022. 
+          I will graduate in 2023 and I am looking for new grad jobs in the field of software engineering or game development.
           Below are my projects with links to code samples.</p>
         </div>
       </div>
+    </div>
+
+    <div class="project" id="project-vpt">
+      <h2>Volumetric Path Tracer</h2>
+        <p>
+          My teammate and I implemented a path tracer to generate images using physically based rendering techniques and monte carlo integration. The path tracer reads in an obj-like scene file together with materials and produces an image with realistic soft shadows, diffuse/specular reflections, and homegenous volumetric effects.
+        </p>
+
+        <hr class='blanksep'>
+        <figure>
+          <img src="assets/vpt.jpg" alt="vpt" width="666">
+          <figcaption>Sample Render (with model courtesy of Blender)</figcaption>
+        </figure>
+
+        <p>
+          This path tracer was used in a the Rendering Competition of UCSD CSE168 Spring 2022 and received 98/100. It features
+        </p> 
+        <ul>
+          <li>C++20 with parallel execution policy</li>
+          <li>Usage of industry-level graphics libraries such as embree, glm, and oneapi</li>
+          <li>Monte Carlo integration</li>
+          <li>a Microfacet BRDF (GGX) and Importance Sampling</li>
+          <li>Equi-angular sampling for homogeneous volumes</li>
+          <li>Henyey-Greenstein phase function</li>
+        </ul>
+        See the <a target='_blank' rel='noopener noreferrer' href="https://l0exy1h.github.io/VolumetricPathTracing-public/">documentation</a> for more details.
+    </div>
+
+    <div class="project" id="project-egsolver">
+
     </div>
 
     <div class="project" id="project-os">
@@ -87,7 +117,6 @@
         <li> <a target='_blank' rel='noopener noreferrer' href="https://www.youtube.com/results?search_query=operation+scorpion+roblox">More Youtube videos about our game</a> </li>
       </ul>
     </div>
-
 
     <div class="project" id="project-vocab">
       <h2>Vocabulary Memorizer</h2>
